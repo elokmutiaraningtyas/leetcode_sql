@@ -14,4 +14,4 @@ with cte as
 select id 
 from cte
 where temperature > prev_temperature
-AND recordDate = date_add(prev_recorddate, interval 1 day)
+and recordDate = date_add(prev_recorddate, interval 1 day)
