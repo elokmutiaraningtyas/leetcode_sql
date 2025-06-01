@@ -89,3 +89,4 @@ FROM
   -- first, create a subquery to calculate number of reports & average of age of each manager
     Employees a -- second table is to get the manager name
 WHERE a.employee_id = b.employee_id -- then combine table a & b using only person who have employee reporting to them as the manager
+ORDER BY 1
